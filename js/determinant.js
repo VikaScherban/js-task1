@@ -52,4 +52,5 @@ function Determinant(arr){
   return resArr[n-1][n-1];
 }
 
-console.log(Determinant(matrix));
+console.log("Task 1.2 'Determinant of matrix");
+console.log("Determinant = ", Determinant(matrix));

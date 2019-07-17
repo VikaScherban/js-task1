@@ -1,5 +1,4 @@
 // Task 1 "Merge sort"
-console.log("Task 1 'Merge sort'");
 const array = [];
 
 function ArrayGenerator(n, minValue, maxValue){
@@ -57,6 +56,7 @@ function MergeSort(arr) {
     return arr;
 }
 
+console.log("Task 1.1 'Merge sort'");
 ArrayGenerator(10, 10,100);
 console.log("Array before sort: ", array.toString());
 MergeSort(array);
